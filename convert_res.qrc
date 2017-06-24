@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/convert">
+        <file>images/switch.ico</file>
+        <file>images/switch.png</file>
+    </qresource>
+</RCC>

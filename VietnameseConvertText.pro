@@ -31,3 +31,8 @@ HEADERS  += mainwindow.h \
     converter.h
 
 FORMS    += mainwindow.ui
+
+RESOURCES += \
+    convert_res.qrc
+
+win32:RC_FILE = VietnameseConvertText.rc

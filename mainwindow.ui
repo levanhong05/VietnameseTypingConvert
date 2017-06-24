@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Vietnamese Typing Converter</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="convert_res.qrc">
+    <normaloff>:/convert/images/switch.png</normaloff>:/convert/images/switch.png</iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -129,6 +133,8 @@
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="convert_res.qrc"/>
+ </resources>
  <connections/>
 </ui>
